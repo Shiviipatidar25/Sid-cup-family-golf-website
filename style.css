@@ -180,7 +180,7 @@
   flex-wrap: wrap;
 
  }
- 
+
  #about-us img{
   height: 220px;
   width: 220px;
@@ -200,6 +200,25 @@
   font-size: 20px;
   line-height: 26px;
  }
+
+ #cards-container{
+  background-color: red;
+  height:60vh ;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 70px;
+ }
+ .card{
+  height: 80%;
+  width: 24%;
+  background-color: blue;
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+ }
+
+
  
 
  @media (max-width: 1024px) {
